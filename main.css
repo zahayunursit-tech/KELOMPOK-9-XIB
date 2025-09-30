@@ -1,0 +1,270 @@
+body {
+    background: linear-gradient(135deg, #fdfbfb, #ebedee);
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #e63946;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: top 0.3s ease-in-out;
+    background-color: #fff;
+  }
+  
+  /* efek pas navbar sudah discroll */
+  .navbar-scrolled {
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  }
+.navbar-nav .nav-link {
+  color: #333;
+  font-weight: 500;
+}
+.navbar-nav .nav-link:hover {
+  color: #e63946;
+}
+.jumbotron-sushi {
+  height: 100vh;
+  background: url('img/sushi3.jpg') no-repeat center center;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  margin-top:40px;
+}
+
+  
+  
+/*jumbotron */
+.jumbotron-overlay {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.55);
+}
+.jumbotron-content {
+  position: relative;
+  z-index: 2;
+  max-width: 700px;
+  padding: 20px;
+}
+.jumbotron-content h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.jumbotron-content p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.section-title {
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.section-subtitle {
+  color: #6c757d;
+  margin-bottom: 2rem;
+}
+.btn-sushi {
+  background-color: #e63946;
+  color: #fff;
+  font-weight: 500;
+}
+.btn-sushi:hover {
+  background-color: #c71f2d;
+  color: #fff;
+}
+.menu-img {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+
+.section-title {
+  font-weight: 700;
+}
+.card-sushi {
+  border: none;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+.card-sushi:hover {
+  transform: translateY(-8px);
+}
+.btn-order {
+  background: #e63946;
+  color: #fff;
+  font-weight: 500;
+}
+.btn-order:hover {
+  background: #c71f2d;
+  color: #fff;
+}
+.story-icon {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #e63946;
+}
+
+.card-sushi {
+  border: none;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+.card-sushi:hover {
+  transform: translateY(-8px);
+}
+.btn-order {
+  background: #e63946;
+  color: #fff;
+  font-weight: 500;
+  transform: translateY(-18px); 
+}
+.btn-order:hover {
+  background: #c71f2d;
+  color: #fff;
+}
+.price {
+  color: #e63946;
+  font-weight: 600;
+}
+.stars {
+  color: #ffc107;
+  transform: translateY(-18px); 
+}
+.text-descripsi{
+    transform: translateY(-12px); 
+}
+
+/* Geser tombol ke luar container */
+.carousel-control-prev,
+.carousel-control-next {
+width: auto;
+top: 45%;
+transform: translateY(-50%);
+}
+
+.carousel-control-prev {
+left: -50px; /* geser ke kiri */
+}
+
+.carousel-control-next {
+right: -50px; /* geser ke kanan */
+}
+
+/* Custom style tombol */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+background-color: #e63946; /* merah sushi */
+border-radius: 50%;
+padding: 20px;
+background-size: 50% 50%;
+}
+
+
+.card-testi {
+border: none;
+box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+border-radius: 15px;
+transition: transform 0.3s;
+}
+
+.card-testi:hover {
+transform: translateY(-5px);
+}
+
+.card-testi img {
+object-fit: cover;
+border: 3px solid #ededed;
+}
+
+.stars {
+color: #FFD700;
+font-size: 1.1rem;
+}
+
+
+.contact-us {
+background-color: #0b132b;
+}
+
+.card-contact {
+background-color: #1c2541;
+border: none;
+border-radius: 12px;
+padding: 20px;
+transition: transform 0.3s;
+}
+
+.card-contact:hover {
+transform: translateY(-5px);
+box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+
+.footer {
+background-color: #0b132b;
+color:white;
+}
+
+.footer a:hover {
+color: #e63946;
+}
+
+.footer h5, .footer h4 {
+color: #fff;
+}
+
+.footer p i {
+color: #e63946; /* ikon sosmed jadi merah */
+}
+
+#btn-back-to-top {
+position: fixed;
+bottom: 20px;
+right: 20px;
+display: none;   /* default: hidden */
+z-index: 99;
+background-color: #e63946;
+border: none;
+color: white;
+font-size: 20px;
+width: 50px;
+height: 50px;
+box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+
+#btn-back-to-top:hover {
+background-color: #d62828;
+}
+
+.sushi-deals {
+background: linear-gradient(90deg, #e63946, #ff7b00);
+color: #fff;
+}
+
+.sushi-deals .deal-box {
+background-color: rgba(255, 255, 255, 0.1);
+border-left: 5px solid #ffd166;
+}
+
+//pesan sekarang modal
+
+.modal-dialog {
+    max-width: 400px; /* lebih kecil dari default */
+  }
+  
+  .modal-body img {
+    max-height: 200px;
+    object-fit: cover;
+  }
+  
